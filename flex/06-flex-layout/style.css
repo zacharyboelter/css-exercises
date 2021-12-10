@@ -5,6 +5,45 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 18px;
+
+}
+
+
+
+a {
+  
+  color: #666;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+
+}
+
+/* center the search bar, logo and buttons */
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 img {
